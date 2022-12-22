@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
                 String contact = econtact.getText().toString();
 
                 DBHelper dbHelper = new DBHelper(MainActivity.this);
-
                 dbHelper.insertData(name, contact);
 
             }
